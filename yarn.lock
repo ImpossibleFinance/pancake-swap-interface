@@ -2122,10 +2122,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@^0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.14.1.tgz#8e42b80678da85d74d9075d49f617ed9171aaff6"
-  integrity sha512-PknRl6qIXSCPPCTseTCEnzaXuW8dowAGUbus500IEZMOtl+hZu+D0g8s0tG6DRcwEIWF1RLmYIWJjuJHiKv8IQ==
+"@pancakeswap-libs/uikit@ImpossibleFinance/impossible-uikit":
+  version "0.13.1"
+  resolved "https://codeload.github.com/ImpossibleFinance/impossible-uikit/tar.gz/9af06e43f14ffda6972e2b98af19c8233072274f"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
