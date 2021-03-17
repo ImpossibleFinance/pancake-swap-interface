@@ -2164,7 +2164,7 @@
 
 "@pancakeswap-libs/uikit@ImpossibleFinance/impossible-uikit":
   version "0.13.1"
-  resolved "https://codeload.github.com/ImpossibleFinance/impossible-uikit/tar.gz/fea7ef5811228bd4ebe0dbbf1c2e43ad4d34b4da"
+  resolved "https://codeload.github.com/ImpossibleFinance/impossible-uikit/tar.gz/85e99d4cab7145fbbef7fac51626e54230faa755"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
