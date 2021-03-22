@@ -2,14 +2,9 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 // Testnet router below
 
 
-export const ROUTER_ADDRESS = '0xb450bDFeCFccdb271c1F0Ab3c030cfd894866628'
+// export const ROUTER_ADDRESS = '0xb450bDFeCFccdb271c1F0Ab3c030cfd894866628'
 
-// export const ROUTER_ADDRESS = '0x4ff27de47e6626c6d7ace23c5f27d846f385de11'
-// export const ROUTER_ADDRESS = '0xe6D6DfA68c2d6d419ff126533f445F95758aEE5B'
-// export const ROUTER_ADDRESS = '0xdEFcc027ACf6c28eC1EeeA9deE3C44dDb3FbEB59'
-
-// export const ROUTER_ADDRESS = '0x97784B28b502cA5110881d7ddB7BF620785Ba1D5'
-// export const ROUTER_ADDRESS = '0xE22d09AC7a907746aFFF720DC4Bc8B1bD20bcceb'
+export const ROUTER_ADDRESS = '0x955D2F8800231CB95Be12fc2346DDBa39Ab1d1f8'
 
 // a list of tokens by chain
 type ChainTokenList = {
