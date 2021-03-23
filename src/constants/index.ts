@@ -13,23 +13,19 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7cea3dedca5984780bafc599bd69add087d56', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff775485246999027b3197955', 18, 'USDT', 'Tether USD')
-export const UST = new Token(
-  ChainId.MAINNET,
-  '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
-  18,
-  'UST',
-  'Wrapped UST Token'
-)
-export const ETH = new Token(
-  ChainId.MAINNET,
-  '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
-  18,
-  'ETH',
-  'Binance-Peg Ethereum Token'
-)
+
+export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
+export const UST = new Token(ChainId.MAINNET, '0x23396cf899ca06c4472205fc903bdb4de249d6fc', 18, 'UST', 'Wrapped UST Token')
+export const lUSD = new Token(ChainId.MAINNET, '0x23e8a70534308a4aaf76fb8c32ec13d17a3bd89e', 18, 'lUSD', 'lUSD')
+ 
+export const STAX = new Token(ChainId.MAINNET, '0x0da6ed8b13214ff28e9ca979dd37439e8a88f6c4', 18, 'STAX', 'StableX Finance Token')
+export const USDC = new Token(ChainId.MAINNET, '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', 18, 'USCD', 'Binance-Peg USD Coin')
+export const USDX = new Token(ChainId.MAINNET, '0x1203355742e76875154c0d13eb81dcd7711dc7d9', 18, 'USDX', 'Kava USDX')
+export const QUSD = new Token(ChainId.MAINNET, '0xb8C540d00dd0Bf76ea12E4B4B95eFC90804f924E', 18, 'QUSD', 'QUSD')
+export const VAI = new Token(ChainId.MAINNET, '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7', 18, 'VAI', 'VAI Stablecoin')
+export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Binance-Peg Ethereum Token')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
